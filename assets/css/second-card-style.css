@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: grey;
+  text-align: center;
+  background-color: rgb(183, 183, 183);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 70px;
+}
+
+.card {
+  max-width: 450px;
+  width: 100%;
+  min-width: 200px;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 20px 30px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card:hover {
+  box-shadow: 0 20px 40px gray;
+}
+
+.menu {
+  background: transparent;
+  border: none;
+  text-align: end;
+  font-size: 20px;
+  color: rgb(167, 167, 167);
+  cursor: pointer;
+  margin-right: -12px;
+}
+
+.user-img {
+  border-radius: 50%;
+  max-width: 150px;
+  width: 100%;
+  min-width: 50px;
+  max-height: 150px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.user-name {
+  color: #000;
+  font-size: 28px;
+  margin-top: 16px;
+}
+
+.user-details {
+  margin: 28px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.user-details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px;
+}
+
+.number {
+  font-size: 20px;
+  color: #000;
+}
+
+.user-description {
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.user-contacts {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-link:hover {
+  transform: scale(1.1);
+}
+
+.twitter {
+  background-color: rgb(14, 163, 255);
+}
+
+.facebook {
+  background-color: rgb(36, 47, 102);
+}
+
+.google {
+  background-color: rgb(255, 81, 0);
+}
+
+.behance {
+  background-color: rgb(0, 42, 253);
+}
+
+.view-profile-btn {
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 40px;
+  padding: 15px 0;
+  font-size: 20px;
+  color: inherit;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.view-profile-btn:hover {
+  background-color: rgb(2, 176, 191);
+  color: #fff;
+  border: 1px solid rgb(2, 176, 191);
+  box-shadow: 0 0 15px gray;
+}
