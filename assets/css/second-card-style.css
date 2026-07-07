@@ -19,6 +19,7 @@ a {
   justify-content: center;
   margin-top: 80px;
   gap: 70px;
+  flex-wrap: wrap;
 }
 
 .card {
