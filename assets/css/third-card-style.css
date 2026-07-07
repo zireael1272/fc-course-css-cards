@@ -101,12 +101,14 @@ body {
   font-family: sans-serif;
   color: rgb(101, 101, 101);
   margin: 2rem 0.75rem;
+  flex-wrap: wrap;
 }
 
 .detail {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  padding: 8px;
 }
 
 .number {
